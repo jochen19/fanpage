@@ -4,7 +4,9 @@ html {
 
 body {
     height: 100%;
-    
+    background-color:#894517;
+    color:#c77521;
+    justify-content:center;
 }
 a {
     text-decoration: none;
@@ -16,4 +18,16 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header{
+    font-size:80px;
+}
+
+.navbar{
+    font-size:25px;
+    color:black;
+}
+img{
+    width:400px;
 }
