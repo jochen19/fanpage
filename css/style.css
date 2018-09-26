@@ -15,19 +15,61 @@ a {
 .main {
     height: 100%;
 }
+
+.aboutMain{
+    display: flex;
+    height: 100%;
+}
+
+.aboutLeft{
+    width :50%;
+}
+
+.aboutRight{
+    width: 50%;
+}
+
+.gallery{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.galleryLeft{
+    width: 50%;
+}
+
+.galleryRight{
+    width: 50%;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
 }
 
 .header{
-    font-size:80px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar{
     font-size:25px;
-    color:black;
+    display: flex;
+    justify-content: space-around;
 }
-img{
-    width:400px;
+
+.thumbnail-image{
+    border: 5px solid #9a541a;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
 }
